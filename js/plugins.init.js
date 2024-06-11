@@ -13,13 +13,13 @@ try {
 
             if (count < target) {
                 counter_value.innerText = (count + 1);
-                setTimeout(updateCount, 175);
+                setTimeout(updateCount, 200);
             } else {
                 counter_value.innerText = target;
             }
         };
 
-        setTimeout(updateCount, 1000);
+        setTimeout(updateCount, 1100);
     });
 } catch (error) {
     
